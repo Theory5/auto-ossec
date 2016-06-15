@@ -19,7 +19,7 @@ Deployment Instructions:
 
 Install OSSEC server on a system. Ensure that auto_server.py is automatically started when reboot occurs, and watchdog in order to ensure its always running. Also ensure no iptables conflict with port 9654 - this port is needed for the two way communication.
 
-Install OSSEC on a Linux or Windows system as an agent. Then run auto_ossec.exe or auto_ossec.py with the IP address of the SERVER that is running auto_server.py. This will automatically pair the instances of OSSEC.
+Install the default OSSEC-HIDS agent (ossec.github.io) on a Linux or Windows system as an agent. Once that is installed, run auto_ossec.exe or auto_ossec.py with the IP address of the SERVER that is running auto_server.py. This will automatically pair the instances of OSSEC.
 
 NOTE THAT ALL OF THESE NEED TO BE PERFORMED WITH ROOT OR ADMINISTRATIVE LEVEL PERMISSIONS. THIS WILL FAIL IF IT IS NOT INSTALLED WITH ADMIN PRIVS.
 
